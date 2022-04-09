@@ -1,20 +1,76 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="stylesheets/main.css" />
-<title>Responsive Layout</title>
 
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David Chu's China Bistro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
 <body>
-<h1>Module 2 Assignment</h1>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
 
-<div class="row" >
-  <div id="first" class="col-lg-4 col-md-6"><p><span id="firstspan">Tofu</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat at lorem non hendrerit.</p></div>
-  <div id="second" class="col-lg-4 col-md-6"><p><span id="secondspan">Brocollie</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat at lorem non hendrerit.</p></div>
-  <div id="third" class="col-lg-4 col-md-12"><p><span id=thirdspan>Cabbage</span><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat at lorem non hendrerit.</p></div>
-</div>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food LLC</h1></a>
+          </div>
 
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="text-center visible-xs">
+              <a href="menu-categories.html">
+                <span class="glyphicon"></span><br class="hidden-xs">Chicken</a>
+            </li>
+            <li class="text-center visible-xs">
+              <a href="#">
+                <span class="glyphicon"></span><br class="hidden-xs">Beef</a>
+            </li>
+            <li class="text-center visible-xs">
+              <a href="#">
+                <span class="glyphicon"></span><br class="hidden-xs">Sushi</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="xs-deliver" class="text-center">Our Menu</div>
+
+  <div id="main-content" class="container">
+    <div >
+      <!--<img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">-->
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus nibh et diam semper accumsan. Nulla eu mi odio. Praesent vulputate elementum feugiat. Curabitur lectus nibh, tincidunt ac condimentum et, ultrices facilisis diam. Nunc quis justo sed velit auctor rhoncus congue vel velit. Integer nec diam eget lectus viverra luctus eu in felis. Aenean porta sed metus nec dictum. Phasellus mattis mi eu dolor auctor semper. Suspendisse purus est, maximus nec mi a, posuere feugiat elit. Donec sit amet velit fermentum, feugiat elit sit amet, lacinia dolor. Nam laoreet mi vel lectus dictum lacinia. Donec varius blandit nisi, ut sollicitudin neque lacinia eget.</p>
+      <p>Morbi consectetur sit amet turpis a finibus. Donec sagittis, purus quis aliquet gravida, risus erat fringilla felis, tincidunt vulputate lectus lectus eu dui. Quisque vestibulum ullamcorper ultricies. In vehicula non dui vitae fermentum. Aliquam hendrerit enim orci, nec scelerisque quam tristique et. Phasellus non lobortis ante. Nunc dignissim, lectus ut ultrices tincidunt, urna velit ultrices sem, eu varius elit ante non tellus. Fusce vitae vestibulum orci. Donec tincidunt tellus at dapibus vehicula. Suspendisse leo sapien, commodo laoreet erat eu, placerat faucibus sem. Sed ut risus vel ante semper tristique pharetra ut elit. Sed sed scelerisque diam.</p>
+      <p>In vulputate nisl vitae tortor dapibus, at posuere ligula vestibulum. Donec mattis, augue vitae consequat dictum, nisi urna tincidunt tellus, eget iaculis lorem massa sed erat. Nunc mollis, risus eu iaculis cursus, tellus odio accumsan lacus, pulvinar gravida dui neque sed velit. Nunc eu vestibulum nulla, non molestie nunc. Sed dapibus odio sed nulla tempus pharetra. Donec est sapien, sodales et felis id, tincidunt vestibulum tellus. Pellentesque maximus ultrices velit, id tempus urna efficitur a. Integer a neque erat. Fusce at aliquet mauris. Integer magna augue, scelerisque in nibh in, mollis pulvinar ex. Nulla sed lobortis dui.</p>
+      <p>Sed tempor iaculis est vel congue. Donec iaculis ligula nec dolor viverra pretium. Vestibulum eu est eu tortor ultricies pellentesque et ac erat. Nulla viverra, mauris nec porta tincidunt, diam metus tempus augue, sed mattis eros mi eu urna. Mauris facilisis lacus diam, at dignissim dolor facilisis vel. Maecenas pharetra nulla ac justo imperdiet vehicula. Duis nec commodo arcu. Ut fringilla metus nec magna consectetur facilisis. In consectetur rhoncus nisl vitae laoreet. Cras aliquam dignissim scelerisque. Suspendisse in lectus quis mauris sagittis eleifend. Etiam venenatis arcu at est eleifend, eu blandit metus feugiat. Integer elementum, orci non interdum bibendum, nulla nisi varius nisl, quis sodales massa nisl eu lectus.</p>
+      <p>Nam convallis elit lacus, quis blandit libero hendrerit quis. Mauris et eleifend est. Integer tristique augue vitae est scelerisque, at mattis ipsum tincidunt. Aliquam maximus rutrum consequat. Proin sit amet turpis dapibus, interdum metus quis, auctor diam. Vivamus euismod est sed mi sagittis tincidunt. Vivamus aliquam libero sit amet vestibulum pulvinar. Sed suscipit aliquam lacus, eget consectetur metus sollicitudin eu. Sed lacinia dapibus dignissim.</p>
+    </div>
+
+  </div>
+
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
